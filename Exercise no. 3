@@ -1,0 +1,58 @@
+1.ODD/EVEN:
+
+CODE:
+a=int(input("enter value of a:"))
+if(a%2==0):
+    Print("a is even")
+else:
+    Print("a is odd")
+
+OUTPUT:
+Enter value of a:1234567
+a is odd
+
+
+2.STUDENT GRADE ANALYSIS:
+CODE:
+name=str(input("enter name:"))
+rollno=int(input("enter rollno:"))
+marks=float(input("enter marks:"))
+if marks>=90:
+    Print(name,rollno,"is under O grade")
+elif marks>=80 and marks<90:
+    Print(name,rollno,"is under A+ grade")
+elif marks>=70 and marks<80:
+    Print(name,rollno,"is under A grade")
+elif marks>=60 and marks<70:
+    Print(name,rollno,"is under B+ grade")
+elif marks>=50 and marks<60:
+    Print(name,rollno,"is under B grade")
+elif marks<50:
+    Print(name,rollno,"is under U grade")
+
+OUTPUT:
+Enter name:Madhumitha
+Enter rollno:14
+Enter marks:98
+Madhumitha14 is under O grade
+
+
+3.CHARACTERS FOR ALPHABETS ,NUMBERS AND SPACE:
+CODE:
+x=input("enter the character")
+if(x.is alpha()):
+    Print("the given character is alphabet")
+elif(x.isnumeric()):
+    Print("the given character is number")
+elif(x.is space()):
+    Print("the given character is space")
+
+OUTPUT:
+Enter character:4
+The given character is number
+Enter character:m
+The given character is alphabet
+Enter the space
+The given character is space
+
+  
